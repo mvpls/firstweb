@@ -1,40 +1,70 @@
+body{
+   
+    display: flex;
+    flex-direction: column;
+}
 header{
-        height: 300px;
+    height: 50px;
     font-family: "Roboto", Courier, sans-serif;
     display: flex;
-    color: white;
-    margin-right: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    
 }
 
-.link{
-    display: flex;
-    justify-content: flex-end;
-    flex-grow: 1;
-}
-.welcome, 
-header,
-footer{
-    background-color: #1F2937;
-}
 .welcome{
     display: flex;
     flex-direction:row;
-    height: 300px;
-    justify-content: space-evenly;    
+    min-height: 300px;
+    justify-content: space-evenly;
+          
 }
 
 .randomInfo{
     display: flex;
-    flex-direction: column;
-        
+    flex-direction: column;       
 }
-.flex-container{
-
-}
-
 
 .quote{
     background-color: #E5E7EB;
+ 
+    
+}
+
+.signUp{
+    display: flex;
+    background-color: #3882F6;
+    padding: 20px;
+    border:solid white 100px;
+    border-radius: 20px;
+
+}
+
+footer{
+
+}
+
+.text2{
+    font-size:18px;
+    color: #e5e7eb
+}
+
+#headerLogo{
+
+    margin-right: auto;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+  
 }
 
 button{
@@ -45,13 +75,76 @@ button{
     border-radius: 5px;
     border: none;
 }
-.signUp{
+
+button#bottom{
+    color: white;
+    background-color: #3882F6;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.welcome, 
+header,
+footer{
+    background-color: #1F2937;
+}
+
+.text#awesome{
     display: flex;
+    justify-items:start ;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 20px;
+    margin: 5px;
+}
+
+.quote{
+    font-size:36px;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    border: 50px;
+}
+
+.item{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: center;
+    padding: 25px;
 }
 
 .placeholder{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: gray;
-    height: 300px;
+    margin: 50px;
+    min-width: 300px;
+}
+
+.image{
+
+    border-radius: 10px;
+    border: 4px solid rgb(16, 68, 129); 
+    padding: 75px;
+   
+}
+
+.text3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 10px;
+    
+       
+}
+
+.quote.thor{
+        align-self: flex-end;
 }
 
 .welcome .text{
@@ -65,4 +158,4 @@ button{
     border: 4px solid black;
     margin-top: 15px;
     padding: 25px;
-    }
+    } 

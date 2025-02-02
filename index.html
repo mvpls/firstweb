@@ -9,45 +9,55 @@
 <body>
 
     <header>
-        <div class="logo">Header Logo</div>
-        <div class="link firstlink"><a href="./pages/one.html">header link one</a></div> 
-        <div class="link secondlink"><a href="./pages/two.html">header link two</a></div>  
-        <div class="link thirdlink"><a href="./pages/three.html">header link three</a></div> 
+        <div class="logo" id="headerLogo">Header Logo</div>
+        <div class="text2" id="firstlink"><a href="./pages/one.html">header link one</a></div> 
+        <div class="text2" id="secondlink"><a href="./pages/two.html">header link two</a></div>  
+        <div class="text2" id="thirdlink"><a href="./pages/three.html">header link three</a></div> 
     </header>
 
     <div class="welcome">
         <div>
-            <div class="text"><h1>This website is awesome</h1></div>
-            <div class="text"><p>This website has some subtext that goes here under the main title. I'ts a smaller font and the color is lower contrast</p></div>
+            <div class="text" id="awesome"><h1>This website is awesome</h1></div>
+            <div class="text2"><p>This website has some subtext that goes here under the main title. I'ts a smaller font and the color is lower contrast</p></div>
             <div class="text"><button>Sign up</button></div>
         </div>
         <div class="placeholder">This is a placeholder for an image</div>
     </div>
 
-    <div>
-        <div class="item"><h2>Some Random Information.</h2></div>
-        <div class="randomInfo"> 
+    <div class="randomInfo">
+        <div class="item">Some Random Information.</div>
+        <div class="flex-container"> 
             <div class="image"><img src="./images/" alt="first image"/></div>
             <div class="image"><img src="./images/" alt="second image"/></div>
             <div class="image"><img src="./images/" alt="third image"/></div>
             <div class="image"><img src="./images/" alt="fourthimage"/></div>
-           
+        </div>
+        <div class="text3">
+            <div>this is some subtext under an illustration or image</div> 
+            <div>this is some subtext under an illustration or image</div>
+            <div>this is some subtext under an illustration or image</div>
+            <div>this is some subtext under an illustration or image</div>
+        </div>
+    </div>
         
-    </div>    
+        
 
     <div class="quote">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read.
-            Who knows? All I know is that it looks nice.</p>
-        <p>-Thor, God of thunder</p>
+        <p><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read.
+            Who knows? All I know is that it looks nice.</em></p>
+        <p id="thor"><strong>-Thor, God of thunder</strong></p>
     </div>
+    
     <div class="signUp">
-        <div class=text><p>Call to action! It's Time!</p></div>
-        <div class=text><p>Sign up for our product by clicking that button right over there!</p></div>
-        <div><button>Sign up</button></div>
+        <div>
+            <div class=text><p>Call to action! It's Time!</p></div>
+            <div class=text><p>Sign up for our product by clicking that button right over there!</p></div>
+        </div>        
+        <div><button type="button" id="bottom">Sign up</button></div>
         
     </div>  
     <footer>
-        <p>Copyright The Odin Project</p>
+        <p>Copyright © The Odin Project</p>
     </footer>
 </body>
 </html>
